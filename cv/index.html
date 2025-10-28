@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Alexa Ann</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video id="bg-video" autoplay muted playsinline>
+        <source src="../media/trees_light.mov" type="video/mp4">
+    </video>
+    <div class="glass-overlay"></div>
+    <main>
+        <a href="/" class="back-link">❧ back</a>
+        <h1>cv</h1>
+        <!-- Add your CV content here -->
+    </main>
+    <script>
+        const video = document.getElementById('bg-video');
+        video.playbackRate = 0.35;
+        let direction = 1;
+        
+        video.addEventListener('loadedmetadata', () => {
+            video.currentTime = 0;
+        });
+        
+        video.addEventListener('timeupdate', () => {
+            if (direction === 1 && video.currentTime >= 8) {
+                direction = -1;
+                video.playbackRate = -0.35;
+            } else if (direction === -1 && video.currentTime <= 0) {
+                direction = 1;
+                video.playbackRate = 0.35;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alexa ann</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video id="bg-video" autoplay muted playsinline>
+        <source src="./media/trees_light.mov" type="video/mp4">
+    </video>
+    <div class="glass-overlay"></div>
+    <div class="construction-banner">under construction</div>
+    <main>
+        <section>
+            <nav>
+                <p>✢</p>
+                <a href="#">alexa ann bonomo</a>
+                <a href="/cv">cv</a>
+                <a href="/worldbuilding">worldbuilding</a>
+                <a href="/teaching">teaching</a>
+                <a href="/talks">talks</a>
+                <a href="/film">film</a>
+                <a href="/writing">writing</a>
+                <a href="/archive">archive</a>
+                <a href="https://underneath.study">underneath.study</a>
+                <p>✢</p>
+            </nav>
+        </section>
+    </main>
+    <script>
+        const video = document.getElementById('bg-video');
+        video.playbackRate = 0.35;
+        let direction = 1;
+        
+        video.addEventListener('loadedmetadata', () => {
+            video.currentTime = 0;
+        });
+        
+        video.addEventListener('timeupdate', () => {
+            if (direction === 1 && video.currentTime >= 8) {
+                direction = -1;
+                video.playbackRate = -0.35;
+            } else if (direction === -1 && video.currentTime <= 0) {
+                direction = 1;
+                video.playbackRate = 0.35;
+            }
+        });
+    </script>
+</body>
+</html>
