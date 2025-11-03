@@ -12,7 +12,7 @@
           "label": "entries",
           "name": "entries",
           "widget": "list",
-          "collapsed": true,
+          "collapsed": false,
           "summary": "{{section}} — {{situation}}",
           "fields": [
             { "name": "section",   "label": "section",   "widget": "string", "required": false },

@@ -20,6 +20,8 @@
         const video = document.getElementById('bg-video');
         video.playbackRate = 0.35;
         let direction = 1;
+        let scrollTimeout;
+        let isVideoPausedByScroll = false;
         
         video.addEventListener('loadedmetadata', () => {
             video.currentTime = 0;
@@ -33,6 +35,20 @@
                 direction = 1;
                 video.playbackRate = 0.35;
             }
+        });
+        
+        // Pause video on scroll, resume after 20 seconds of no scrolling
+        window.addEventListener('scroll', () => {
+            if (!isVideoPausedByScroll) {
+                video.pause();
+                isVideoPausedByScroll = true;
+            }
+            
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                video.play();
+                isVideoPausedByScroll = false;
+            }, 8000);
         });
     </script>
 </body>
