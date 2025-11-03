@@ -66,6 +66,16 @@
         var DATA_URL = '../data/cv.json'; // this page lives in /cv/, so go up one
         function esc(s){ return String(s == null ? '' : s)
           .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+        
+        // Fix em dashes and apostrophes that might show as ? due to encoding issues
+        function fixDashes(s){ 
+          if (!s) return s;
+          return String(s)
+            .replace(/(\d{4})-(\d{4})/g, '$1–$2')  // Convert year ranges with hyphen to en dash
+            .replace(/(\d{4})\?(\d{4})/g, '$1–$2') // Convert year ranges with ? to en dash
+            .replace(/I\?d/g, "I'd")               // Fix apostrophes in contractions
+            .replace(/\?s\b/g, "'s");              // Fix possessives
+        }
       
         function isSectionHeader(r){
           return r.section && !r.situation && !r.activity && !r.date && !r.location;
@@ -89,13 +99,13 @@
             var r = rows[i] || {};
             if (isSectionHeader(r)) {
               if (current.items.length || current.title) groups.push(current);
-              current = { title: (r.section || '').trim(), items: [] };
+              current = { title: fixDashes((r.section || '').trim()), items: [] };
             } else if (r.situation || r.activity || r.date || r.location) {
               current.items.push({
-                situation: r.situation || '',
-                activity : r.activity  || '',
-                date     : r.date      || '',
-                location : r.location  || ''
+                situation: fixDashes(r.situation || ''),
+                activity : fixDashes(r.activity  || ''),
+                date     : fixDashes(r.date      || ''),
+                location : fixDashes(r.location  || '')
               });
             }
           }
