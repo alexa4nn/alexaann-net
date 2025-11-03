@@ -48,7 +48,8 @@ a:active {
 main {
     position: relative;
     z-index: 1;
-    padding: 2rem;
+    padding: 0 2rem;
+    padding-bottom: 20rem;
     color: black;
     max-width: 50%;
     margin: 0 auto;
@@ -56,20 +57,45 @@ main {
 
 .back-link {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
     text-decoration: none;
     z-index: 2;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.55));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    padding-top: 4rem;
+    text-align: right;
+    mask-image: linear-gradient(to bottom, transparent, black 2rem);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 2rem);
 }
 
 h1 {
     font-size: 1.5rem;
     font-weight: normal;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     position: fixed;
-    top: 2rem;
-    left: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
     z-index: 2;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.55));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    padding-bottom: 4rem;
+    mask-image: linear-gradient(to top, transparent, black 2rem);
+    -webkit-mask-image: linear-gradient(to top, transparent, black 2rem);
+}
+
+.cv-ornament {
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -77,7 +103,7 @@ h2 {
 }
 
 .cv-sections { 
-  margin-top: 4rem; 
+  margin-top: 2rem; 
   font-size: .75rem;
   display: grid;
   grid-template-columns: 2rem auto 1.2fr 2fr auto;
@@ -148,28 +174,25 @@ h2 {
   }
   
   .cv-sections {
-    grid-template-columns: 2rem 1fr;
-    gap: 0 .9rem;
-  }
-  .cv-date,
-  .cv-location { white-space: normal; }
-  
-  .cv-situation,
-  .cv-activity,
-  .cv-date,
-  .cv-location {
-    border-bottom: none;
-    padding: .15rem 0;
-    grid-column: 2;
+    grid-template-columns: 1rem auto 1fr 1.5fr;
+    gap: .4rem .6rem;
   }
   
   .cv-date {
-    margin-top: 1rem;
-    font-weight: bold;
+    grid-column: 2;
+    white-space: normal;
   }
   
   .cv-situation {
-    font-weight: bold;
+    grid-column: 3;
+  }
+  
+  .cv-activity {
+    grid-column: 4;
+  }
+  
+  .cv-location {
+    display: none;
   }
 }
 
