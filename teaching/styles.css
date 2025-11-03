@@ -46,20 +46,42 @@ a:active {
 main {
     position: relative;
     z-index: 1;
-    padding: 2rem;
+    padding: 0 2rem;
+    padding-bottom: 20rem;
     color: black;
 }
 
 .back-link {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
     text-decoration: none;
     z-index: 2;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.55));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    padding-top: 4rem;
+    text-align: right;
+    mask-image: linear-gradient(to bottom, transparent, black 2rem);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 2rem);
 }
 
 h1 {
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 1rem;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.55));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem;
+    padding-bottom: 4rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    width: calc(100% + 4rem);
+    mask-image: linear-gradient(to top, transparent, black 2rem);
+    -webkit-mask-image: linear-gradient(to top, transparent, black 2rem);
 }
