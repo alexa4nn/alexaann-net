@@ -21,35 +21,67 @@
         video.playbackRate = 0.35;
         let direction = 1;
         let scrollTimeout;
+        let mouseMoveTimeout;
         let isVideoPausedByScroll = false;
+        let isVideoPausedByMouse = false;
         
         video.addEventListener('loadedmetadata', () => {
             video.currentTime = 0;
         });
         
         video.addEventListener('timeupdate', () => {
-            if (direction === 1 && video.currentTime >= 8) {
-                direction = -1;
-                video.playbackRate = -0.35;
-            } else if (direction === -1 && video.currentTime <= 0) {
-                direction = 1;
-                video.playbackRate = 0.35;
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                if (direction === 1 && video.currentTime >= 8) {
+                    direction = -1;
+                    video.playbackRate = -0.35;
+                } else if (direction === -1 && video.currentTime <= 0) {
+                    direction = 1;
+                    video.playbackRate = 0.35;
+                }
             }
         });
         
-        // Pause video on scroll, resume after 20 seconds of no scrolling
+        function pauseVideo() {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                video.pause();
+            }
+        }
+        
+        function resumeVideo() {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                video.play();
+            }
+        }
+        
+        // Pause video on scroll, resume after 8 seconds of no scrolling
         window.addEventListener('scroll', () => {
             if (!isVideoPausedByScroll) {
-                video.pause();
+                pauseVideo();
                 isVideoPausedByScroll = true;
             }
             
             clearTimeout(scrollTimeout);
             scrollTimeout = setTimeout(() => {
-                video.play();
                 isVideoPausedByScroll = false;
+                resumeVideo();
             }, 8000);
         });
+        
+        // Pause video on mouse move (desktop only), resume after 8 seconds of no movement
+        if (window.matchMedia('(min-width: 721px)').matches) {
+            window.addEventListener('mousemove', () => {
+                if (!isVideoPausedByMouse) {
+                    pauseVideo();
+                    isVideoPausedByMouse = true;
+                }
+                
+                clearTimeout(mouseMoveTimeout);
+                mouseMoveTimeout = setTimeout(() => {
+                    isVideoPausedByMouse = false;
+                    resumeVideo();
+                }, 8000);
+            });
+        }
     </script>
 </body>
 </html>
