@@ -110,11 +110,6 @@ h2 {
   gap: .6rem .9rem;
 }
 
-.cv-sections,
-.cv-sections * {
-  text-transform: lowercase;
-}
-
 .cv-group { 
   margin: 1.25rem 0 0 0;
   display: contents;
@@ -125,6 +120,7 @@ h2 {
   font-style: italic;
   letter-spacing: .01em;
   grid-column: 1 / -1;
+  text-transform: lowercase;
 }
 .cv-group:first-child .cv-group-title {
   margin-top: 0;
@@ -152,20 +148,24 @@ h2 {
   font-style: normal;
   text-align: left;
   padding: .35rem 0;
+  text-transform: none;
 }
 .cv-activity  { 
   text-align: left;
   padding: .35rem 0;
+  text-transform: none;
 }
 .cv-date      { 
   white-space: nowrap; 
   text-align: left;
   padding: .35rem 0;
+  text-transform: none;
 }
 .cv-location  { 
   white-space: nowrap; 
   text-align: left;
   padding: .35rem 0;
+  text-transform: none;
 }
 
 @media (max-width: 720px) {
