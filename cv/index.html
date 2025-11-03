@@ -89,12 +89,12 @@
           var html = groups.map(function(g){
             if (!g.items.length) return '';
             var rowsHTML = g.items.map(function(it){
-              var meta = [it.date, it.location].filter(function(x){return x && String(x).trim();}).join(' • ');
               return '' +
                 '<div class="cv-item">' +
+                  '<div class="cv-date">'      + esc(it.date)      + '</div>' +
                   '<div class="cv-situation">' + esc(it.situation) + '</div>' +
                   '<div class="cv-activity">'  + esc(it.activity)  + '</div>' +
-                  '<div class="cv-meta">'      + esc(meta)         + '</div>' +
+                  '<div class="cv-location">'  + esc(it.location)  + '</div>' +
                 '</div>';
             }).join('');
             var titleHTML = g.title ? '<h2 class="cv-group-title">' + esc(g.title) + '</h2>' : '';
