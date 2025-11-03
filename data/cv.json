@@ -57,7 +57,7 @@
       "location": "Davis, CA"
     },
     {
-      "section": "Teaching, Organizing, + Curation",
+      "section": "Design + Dev",
       "date": "",
       "situation": "",
       "activity": "",
@@ -67,113 +67,106 @@
       "section": "",
       "date": "since 2025",
       "situation": "underneath.study",
-      "activity": "Curation, Design, + Dev: an offsite and online learning + arts collective",
+      "activity": "an offsite and online learning + arts collective",
       "location": "Offsite + Online"
-    },
-    {
-      "section": "",
-      "date": "since 2024",
-      "situation": "SJSU & Leonardo",
-      "activity": "Curation: The Multigenerational Digital Stewardship Project",
-      "location": "Online"
-    },
-    {
-      "section": "",
-      "date": "since 2023",
-      "situation": "University of San Francisco",
-      "activity": "Adjunct Professor: Digital Media Design, Design for the Web, Visual Communications",
-      "location": "San Francisco, CA"
-    },
-    {
-      "section": "",
-      "date": "2025",
-      "situation": "Solo Show Online",
-      "activity": "Curation: Solo Show Online Presents: Swarm Axes 05",
-      "location": "Oakland, CA"
-    },
-    {
-      "section": "",
-      "date": "2025",
-      "situation": "Gray Area Foundation for the Arts and Technology",
-      "activity": "Instructor: Creative Code Intensive: Video Synthesis with Hydra\nProjection Mapping",
-      "location": "San Francisco, CA"
-    },
-    {
-      "section": "",
-      "date": "2025",
-      "situation": "Index",
-      "activity": "Instructor: Digital Archiving: Gallery of Anonymous Memories",
-      "location": "Online"
-    },
-    {
-      "section": "",
-      "date": "2024",
-      "situation": "School for Poetic Computation",
-      "activity": "Teaching Assistant: Digital Love Languages",
-      "location": "Online"
-    },
-    {
-      "section": "",
-      "date": "2024",
-      "situation": "Index",
-      "activity": "Instructor: Archival Walks",
-      "location": "Online"
     },
     {
       "section": "",
       "date": "2022?2025",
       "situation": "Leonardo",
-      "activity": "Operations",
+      "activity": "operations for the Leonardo journal + artist programming",
       "location": "Oakland, CA"
     },
     {
+      "section": "Curation + Organization",
+      "date": "",
+      "situation": "",
+      "activity": "",
+      "location": ""
+    },
+    {
       "section": "",
-      "date": "2024",
-      "situation": "Index",
-      "activity": "Instructor: Intro to Coding for Designers, Asynhronous Online Course",
+      "date": "since 2024",
+      "situation": "SJSU & Leonardo",
+      "activity": "The Multigenerational Digital Stewardship Project",
       "location": "Online"
+    },
+    {
+      "section": "",
+      "date": "2025",
+      "situation": "Solo Show Online",
+      "activity": "Solo Show Online Presents: Swarm Axes 05",
+      "location": "Oakland, CA"
     },
     {
       "section": "",
       "date": "2023?2025",
       "situation": "Index",
-      "activity": "Curation: Index Resources, Archive",
+      "activity": "Index Resources, Archive",
       "location": "Online"
     },
     {
       "section": "",
       "date": "2023",
       "situation": "Index",
-      "activity": "Curation: Index Online Freeform Radio",
+      "activity": "Index Online Freeform Radio",
+      "location": "Online"
+    },
+    {
+      "section": "Alt Ed Teaching",
+      "date": "",
+      "situation": "",
+      "activity": "",
+      "location": ""
+    },
+    {
+      "section": "",
+      "date": "2025",
+      "situation": "Gray Area Foundation for the Arts and Technology",
+      "activity": "Creative Code Intensive: Video Synthesis with Hydra\nProjection Mapping",
+      "location": "San Francisco, CA"
+    },
+    {
+      "section": "",
+      "date": "2025",
+      "situation": "Index",
+      "activity": "Digital Archiving: Gallery of Anonymous Memories",
       "location": "Online"
     },
     {
       "section": "",
-      "date": "2020?2022",
-      "situation": "University of California, Davis",
-      "activity": "Lecturer: Graphics for the Computer, Coding for Designers, Interactive Media I",
-      "location": "Davis, CA"
+      "date": "2024",
+      "situation": "School for Poetic Computation",
+      "activity": " Digital Love Languages",
+      "location": "Online"
+    },
+    {
+      "section": "",
+      "date": "2024",
+      "situation": "Index",
+      "activity": "Archival Walks",
+      "location": "Online"
+    },
+    {
+      "section": "",
+      "date": "2024",
+      "situation": "Index",
+      "activity": "Intro to Coding for Designers, Asynhronous Online Course",
+      "location": "Online"
     },
     {
       "section": "",
       "date": "2022",
       "situation": "Index",
-      "activity": "Instructor: Intro to Coding for Designers",
+      "activity": "Intro to Coding for Designers",
       "location": "Online"
     },
     {
       "section": "",
       "date": "2022",
       "situation": "Index",
-      "activity": "Instructor: Intro to Coding for Designers",
+      "activity": "Intro to Coding for Designers",
       "location": "Online"
-    },
-    {
-      "section": "",
-      "date": "2020?2022",
-      "situation": "University of California, Davis",
-      "activity": "Teaching Assistant: Interactive Media I, Interactive Media II, Form and Color, Typography, Design Ideologies",
-      "location": "Davis, CA"
     },
     {
       "section": "",
@@ -327,6 +320,48 @@
       "date": "Summer 2020",
       "situation": "University of California, Davis",
       "activity": "Coding for Designers",
+      "location": "Davis, CA"
+    },
+    {
+      "section": "",
+      "date": "Spring 2020",
+      "situation": "University of California, Davis",
+      "activity": "Interactive Media I",
+      "location": "Davis, CA"
+    },
+    {
+      "section": "",
+      "date": "Winter 2019",
+      "situation": "University of California, Davis",
+      "activity": "Design Ideologies",
+      "location": "Davis, CA"
+    },
+    {
+      "section": "",
+      "date": "Winter2019",
+      "situation": "University of California, Davis",
+      "activity": "Form and Color",
+      "location": "Davis, CA"
+    },
+    {
+      "section": "",
+      "date": "Fall 2019",
+      "situation": "University of California, Davis",
+      "activity": "Interactive Media II",
+      "location": "Davis, CA"
+    },
+    {
+      "section": "",
+      "date": "Fall 2019",
+      "situation": "University of California, Davis",
+      "activity": "Interactive Media I",
+      "location": "Davis, CA"
+    },
+    {
+      "section": "",
+      "date": "Fall 2018",
+      "situation": "University of California, Davis",
+      "activity": "Typography",
       "location": "Davis, CA"
     },
     {
