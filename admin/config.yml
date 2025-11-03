@@ -1,0 +1,87 @@
+backend:
+  # if you host on netlify (easiest): use git-gateway and skip oauth
+  name: git-gateway
+  branch: main
+
+# if you stay on github pages instead of netlify, switch to:
+# backend:
+#   name: github
+#   repo: alexa4nn/alexaann-net
+#   branch: main
+#   # prod needs a tiny oauth server; we can wire that up later.
+
+local_backend: true  # lets you edit locally with `npx decap-server`
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "artworks"
+    label: "artworks"
+    folder: "content/artworks"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", widget: "string" }
+      - { name: "slug", widget: "string", hint: "lowercase, hyphens" }
+      - { name: "year", widget: "number" }
+      - { name: "medium", widget: "list", default: [] }
+      - { name: "dimensions", widget: "string", required: false }
+      - { name: "credits", widget: "list", default: [] }
+      - { name: "description", widget: "text", required: false }
+      - label: "images"
+        name: "images"
+        widget: "list"
+        fields:
+          - { name: "src", widget: "image" }
+          - { name: "alt", widget: "string", required: false }
+      - { name: "tags", widget: "list", default: [] }
+      - label: "links"
+        name: "links"
+        widget: "list"
+        fields:
+          - { name: "label", widget: "string" }
+          - { name: "url", widget: "string" }
+
+  - name: "cv"
+    label: "cv"
+    files:
+      - label: "cv data"
+        name: "cv_file"
+        file: "data/cv.json"
+        format: "json"
+        fields:
+          - label: "education"
+            name: "education"
+            widget: "list"
+            fields:
+              - { name: "program", widget: "string" }
+              - { name: "institution", widget: "string" }
+              - { name: "year", widget: "string" }
+          - label: "exhibitions"
+            name: "exhibitions"
+            widget: "list"
+            fields:
+              - { name: "title", widget: "string" }
+              - { name: "venue", widget: "string" }
+              - { name: "city", widget: "string", required: false }
+              - { name: "year", widget: "string" }
+              - { name: "type", widget: "select", options: ["solo","group"], required: false }
+          - label: "teaching"
+            name: "teaching"
+            widget: "list"
+            fields:
+              - { name: "course", widget: "string" }
+              - { name: "institution", widget: "string" }
+              - { name: "years", widget: "string" }
+          - label: "press"
+            name: "press"
+            widget: "list"
+            fields:
+              - { name: "title", widget: "string" }
+              - { name: "year", widget: "string" }
+              - { name: "url", widget: "string", required: false }
