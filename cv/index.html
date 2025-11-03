@@ -27,14 +27,16 @@
         let dir = 1; // 1 = forward, -1 = backward
         let last;
         let scrollTimeout;
+        let mouseMoveTimeout;
         let isVideoPausedByScroll = false;
+        let isVideoPausedByMouse = false;
 
         function step(ts) {
             if (!last) last = ts;
             const dt = (ts - last) / 1000; // seconds since last frame
             last = ts;
 
-            if (!isNaN(video.duration) && !isVideoPausedByScroll) {
+            if (!isNaN(video.duration) && !isVideoPausedByScroll && !isVideoPausedByMouse) {
                 video.currentTime = Math.max(0, Math.min(MAX_T, video.currentTime + dir * SPEED * dt));
                 if (dir === 1 && video.currentTime >= MAX_T) dir = -1;
                 else if (dir === -1 && video.currentTime <= 0) dir = 1;
@@ -47,20 +49,48 @@
             requestAnimationFrame(step);
         });
         
-        // Pause video on scroll, resume after 20 seconds of no scrolling
+        function pauseVideo() {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                video.pause();
+            }
+        }
+        
+        function resumeVideo() {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                video.play();
+                last = null; // Reset timing for smooth resume
+            }
+        }
+        
+        // Pause video on scroll, resume after 8 seconds of no scrolling
         window.addEventListener('scroll', () => {
             if (!isVideoPausedByScroll) {
-                video.pause();
+                pauseVideo();
                 isVideoPausedByScroll = true;
             }
             
             clearTimeout(scrollTimeout);
             scrollTimeout = setTimeout(() => {
-                video.play();
                 isVideoPausedByScroll = false;
-                last = null; // Reset timing for smooth resume
+                resumeVideo();
             }, 8000);
         });
+        
+        // Pause video on mouse move (desktop only), resume after 8 seconds of no movement
+        if (window.matchMedia('(min-width: 721px)').matches) {
+            window.addEventListener('mousemove', () => {
+                if (!isVideoPausedByMouse) {
+                    pauseVideo();
+                    isVideoPausedByMouse = true;
+                }
+                
+                clearTimeout(mouseMoveTimeout);
+                mouseMoveTimeout = setTimeout(() => {
+                    isVideoPausedByMouse = false;
+                    resumeVideo();
+                }, 8000);
+            });
+        }
     </script>
     <script>
       (function(){
