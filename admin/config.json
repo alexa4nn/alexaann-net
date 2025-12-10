@@ -1,25 +1,26 @@
 {
-  "name": "cv",
-  "label": "cv",
-  "files": [
+  "backend": { "name": "git-gateway" },
+  "local_backend": true,
+  "collections": [
     {
-      "label": "cv data",
-      "name": "cv_file",
-      "file": "data/cv.json",
-      "format": "json",
-      "fields": [
+      "name": "cv",
+      "label": "cv",
+      "files": [
         {
-          "label": "entries",
-          "name": "entries",
-          "widget": "list",
-          "collapsed": false,
-          "summary": "{{section}} — {{situation}}",
+          "label": "cv entries",
+          "name": "cventries",
+          "file": "data/cv.json",
+          "format": "json",
           "fields": [
-            { "name": "section",   "label": "section",   "widget": "string", "required": false },
-            { "name": "situation", "label": "situation", "widget": "string", "required": false },
-            { "name": "activity",  "label": "activity",  "widget": "text",   "required": false },
-            { "name": "date",      "label": "date",      "widget": "string", "required": false },
-            { "name": "location",  "label": "location",  "widget": "string", "required": false }
+            { "label": "entries", "name": "entries", "widget": "list",
+              "fields": [
+                { "name": "section", "label": "section", "widget": "string" },
+                { "name": "date", "label": "date", "widget": "string" },
+                { "name": "situation", "label": "situation", "widget": "string" },
+                { "name": "activity", "label": "activity", "widget": "text" },
+                { "name": "location", "label": "location", "widget": "string" }
+              ]
+            }
           ]
         }
       ]
