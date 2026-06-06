@@ -9,6 +9,13 @@
     },
     {
       "section": "",
+      "date": "2027",
+      "situation": "University of Edinburgh",
+      "activity": "MScR Collections and Curatorial Practices",
+      "location": "Edinburgh, Scotland"
+    },
+    {
+      "section": "",
       "date": "2020",
       "situation": "University of California, Davis",
       "activity": "MFA Design",
@@ -93,9 +100,9 @@
     },
     {
       "section": "",
-      "date": "Since 2024",
+      "date": "2026",
       "situation": "SJSU & Leonardo",
-      "activity": "The Multigenerational Digital Stewardship Project",
+      "activity": "Technoutopia.exe: Fragments from the Archive 1984?2014",
       "location": "Online"
     },
     {
@@ -149,9 +156,16 @@
     },
     {
       "section": "",
+      "date": "Spring 2026",
+      "situation": "School for Poetic Computation",
+      "activity": "Digital Decay & Afterlives: Archiving on the Web",
+      "location": ""
+    },
+    {
+      "section": "",
       "date": "Spring 2025",
       "situation": "Gray Area Foundation for the Arts and Technology",
-      "activity": "Creative Code Intensive: Video Synthesis with Hydra\nProjection Mapping",
+      "activity": "Creative Code Intensive",
       "location": "San Francisco, CA"
     },
     {
@@ -216,6 +230,13 @@
       "situation": "",
       "activity": "",
       "location": ""
+    },
+    {
+      "section": "",
+      "date": "Spring 2026",
+      "situation": "San Francisco University",
+      "activity": "Digital Media Design",
+      "location": "San Francisco, CA"
     },
     {
       "section": "",
@@ -401,6 +422,13 @@
     },
     {
       "section": "",
+      "date": "2026",
+      "situation": "Gray Area",
+      "activity": "./local_memory",
+      "location": "San Francisco, CA"
+    },
+    {
+      "section": "",
       "date": "2025",
       "situation": "Solo Show Online, Gothic Pastoral 06",
       "activity": "either solar / or lunar",
@@ -453,6 +481,13 @@
       "date": "",
       "situation": "",
       "activity": "",
+      "location": ""
+    },
+    {
+      "section": "",
+      "date": "",
+      "situation": "Almanac of Artificial Seasons [Working Title] ",
+      "activity": "Src Material, Echo Chamber",
       "location": ""
     },
     {
@@ -544,6 +579,20 @@
       "date": "",
       "situation": "",
       "activity": "",
+      "location": ""
+    },
+    {
+      "section": "",
+      "date": "2026",
+      "situation": "Technoutopia.exe: Fragments from the Archive 1984?2014",
+      "activity": "San Jos? Museum of Art",
+      "location": ""
+    },
+    {
+      "section": "",
+      "date": "2026",
+      "situation": "Click on My Mouth: Language and Technology",
+      "activity": "San Jos? State University",
       "location": ""
     },
     {
