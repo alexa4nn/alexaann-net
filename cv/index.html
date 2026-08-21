@@ -136,7 +136,8 @@
                 situation: fixDashes(r.situation || ''),
                 activity : fixDashes(r.activity  || ''),
                 date     : fixDashes(r.date      || ''),
-                location : fixDashes(r.location  || '')
+                location : fixDashes(r.location  || ''),
+                link     : (r.link || '').trim()
               });
             }
           }
@@ -147,12 +148,16 @@
           var html = groups.map(function(g){
             if (!g.items.length) return '';
             var rowsHTML = g.items.map(function(it){
+              var linkHTML = it.link
+                ? '<div class="cv-link"><a href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer" aria-label="open link">&#8599;</a></div>'
+                : '<div class="cv-link"></div>';
               return '' +
                 '<div class="cv-item">' +
                   '<div class="cv-date">'      + esc(it.date)      + '</div>' +
                   '<div class="cv-situation">' + esc(it.situation) + '</div>' +
                   '<div class="cv-activity">'  + esc(it.activity)  + '</div>' +
                   '<div class="cv-location">'  + esc(it.location)  + '</div>' +
+                  linkHTML +
                 '</div>';
             }).join('');
             var titleHTML = g.title ? '<h2 class="cv-group-title">' + esc(g.title) + '</h2>' : '';

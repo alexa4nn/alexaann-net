@@ -120,11 +120,11 @@ h2 {
     font-size: .75 rem;
 }
 
-.cv-sections { 
-  margin-top: 2rem; 
+.cv-sections {
+  margin-top: 2rem;
   font-size: 0.9375rem;
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 2fr 2fr auto;
   gap: .6rem .9rem;
   position: relative;
   padding: 0;
@@ -174,6 +174,9 @@ h2 {
 .cv-location {
   display: none;
 }
+.cv-link {
+  grid-column: 4;
+}
 
 .cv-item {
   display: contents;
@@ -205,13 +208,28 @@ h2 {
   text-transform: none;
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
-.cv-location  { 
+.cv-location  {
   font-family: Arial, sans-serif;
-  white-space: nowrap; 
+  white-space: nowrap;
   text-align: left;
   padding: .35rem 0;
   text-transform: none;
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+.cv-link {
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  text-align: right;
+  padding: .35rem 0;
+}
+.cv-link a {
+  color: inherit;
+  text-decoration: none;
+  opacity: .55;
+  transition: opacity .15s ease;
+}
+.cv-link a:hover {
+  opacity: 1;
 }
 
 @media (max-width: 720px) {
@@ -221,7 +239,7 @@ h2 {
   }
   
   .cv-sections {
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr auto;
     gap: .2rem .3rem;
     padding: .5rem;
     overflow: hidden;

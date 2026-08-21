@@ -18,7 +18,8 @@
                 { "name": "date", "label": "date", "widget": "string" },
                 { "name": "situation", "label": "situation", "widget": "string" },
                 { "name": "activity", "label": "activity", "widget": "text" },
-                { "name": "location", "label": "location", "widget": "string" }
+                { "name": "location", "label": "location", "widget": "string" },
+                { "name": "link", "label": "link", "widget": "string", "required": false }
               ]
             }
           ]
