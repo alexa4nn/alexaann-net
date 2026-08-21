@@ -5,637 +5,728 @@
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "2027",
       "situation": "University of Edinburgh",
       "activity": "MScR Collections and Curatorial Practices",
-      "location": "Edinburgh, Scotland"
+      "location": "Edinburgh, Scotland",
+      "link": ""
     },
     {
       "section": "",
       "date": "2020",
       "situation": "University of California, Davis",
       "activity": "MFA Design",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "2017",
       "situation": "Towson University",
       "activity": "BFA Digital Art and Design, Experimental Media + Film",
-      "location": "Baltimore, MD"
+      "location": "Baltimore, MD",
+      "link": ""
     },
     {
       "section": "",
       "date": "2022",
       "situation": "School for Poetic Computation",
       "activity": "Digital Love Languages",
-      "location": "Online + New York, NY"
+      "location": "Online + New York, NY",
+      "link": ""
     },
     {
       "section": "",
       "date": "2017",
       "situation": "Gray Area Foundation for the Arts and Technology",
       "activity": "Creative Code Immersive",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "Research",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "Since 2024",
       "situation": "World Engines Lab",
       "activity": "Worldbuilding, 3D Worlds, Motion Capture",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": "https://grayarea.org/create/research-labs/world-engines-lab/"
     },
     {
       "section": "",
-      "date": "2018?2020",
+      "date": "2018–2020",
       "situation": "ViDi Labs",
       "activity": "Data Visualization and Semiotics",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": "https://vidi.cs.ucdavis.edu/"
     },
     {
       "section": "Design + Development",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "Since 2025",
       "situation": "underneath.study",
       "activity": "An offsite and online learning + arts collective",
-      "location": "Offsite + Online"
+      "location": "Offsite + Online",
+      "link": "https://www.underneath.study/"
     },
     {
       "section": "",
-      "date": "2025?2026",
+      "date": "2025–2026",
       "situation": "After Hours",
       "activity": "WORKFORFREE.RIP:  a transparency index that invites art workers to turn their pay data into public knowledge",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://afterhours.zone/"
     },
     {
       "section": "",
-      "date": "2022?2025",
+      "date": "2022–2025",
       "situation": "Index",
       "activity": "Head of Online Educational Programming",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://www.index-space.org/"
     },
     {
       "section": "",
-      "date": "2022?2025",
+      "date": "2022–2025",
       "situation": "Leonardo",
       "activity": "Operations for the Leonardo Journal + artist programming",
-      "location": "Oakland, CA"
+      "location": "Oakland, CA",
+      "link": "https://leonardo.info/"
     },
     {
       "section": "Curation + Organization",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "2026",
       "situation": "National Academy of Design",
       "activity": "Archive of Archives: Digital Decay & Afterlives: Archiving on the Web",
-      "location": "Online, New York, NY"
+      "location": "Online, New York, NY",
+      "link": "https://digitaldecay.alexaann.net/archive-of-archives/"
     },
     {
       "section": "",
       "date": "2026",
       "situation": "SJSU & Leonardo",
-      "activity": "Technoutopia.exe: Fragments from the Archive 1984?2014",
-      "location": "Online"
+      "activity": "Technoutopia.exe: Fragments from the Archive 1984–2014",
+      "location": "Online",
+      "link": "http://leonardo/"
     },
     {
       "section": "",
       "date": "2025",
       "situation": "underneath.study + Solo Show Online",
       "activity": "Solo Show Online Presents: Swarm Axes 05",
-      "location": "Oakland, CA"
+      "location": "Oakland, CA",
+      "link": "https://www.underneath.study/"
     },
     {
       "section": "",
-      "date": "2023?2025",
+      "date": "2023–2025",
       "situation": "Index",
       "activity": "Index Resources, Archive",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://www.index-space.org/"
     },
     {
       "section": "",
       "date": "2023",
       "situation": "Index",
       "activity": "Index Online Freeform Radio",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://www.index-space.org/"
     },
     {
       "section": "",
-      "date": "2015?2016",
+      "date": "2015–2016",
       "situation": "Maryland Art Place",
       "activity": "Curatorial Assistant Intern",
-      "location": "Baltimore, MD"
+      "location": "Baltimore, MD",
+      "link": ""
     },
     {
       "section": "",
-      "date": "2015?2016",
+      "date": "2015–2016",
       "situation": "Towson University, Electronic Media and Film",
       "activity": "Halfway Film Festival",
-      "location": "Baltimore, MD"
+      "location": "Baltimore, MD",
+      "link": ""
     },
     {
       "section": "",
-      "date": "2015?2016",
+      "date": "2015–2016",
       "situation": "Towson University, Electronic Media and Film",
       "activity": "72 Hour Film Festival",
-      "location": "Baltimore, MD"
+      "location": "Baltimore, MD",
+      "link": ""
     },
     {
       "section": "Alt Ed Teaching",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2026",
       "situation": "School for Poetic Computation",
       "activity": "Digital Decay & Afterlives: Archiving on the Web",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2025",
       "situation": "Gray Area Foundation for the Arts and Technology",
       "activity": "Creative Code Intensive",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Summer 2025",
       "situation": "Index",
       "activity": "Digital Archiving: Gallery of Anonymous Memories",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://www.index-space.org/products/digital-archiving-gallery-of-anonymous-memories"
     },
     {
       "section": "",
       "date": "Fall 2024",
       "situation": "School for Poetic Computation",
       "activity": "Digital Love Languages",
-      "location": "Online"
+      "location": "Online",
+      "link": ""
     },
     {
       "section": "",
       "date": "Summer 2024",
       "situation": "Index",
       "activity": "Archival Walks",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://www.index-space.org/"
     },
     {
       "section": "",
       "date": "Since 2024",
       "situation": "Index",
       "activity": "Intro to Coding for Designers, Asynchronous Online Course",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://www.index-space.org/"
     },
     {
       "section": "",
       "date": "Fall 2022",
       "situation": "Index",
       "activity": "Intro to Coding for Designers",
-      "location": "Online"
+      "location": "Online",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2022",
       "situation": "Index",
       "activity": "Intro to Coding for Designers",
-      "location": "Online"
+      "location": "Online",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2017",
       "situation": "Gray Area Foundation for the Arts and Technology",
       "activity": "Creative Code Immersive",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
-      "date": "2014?2015",
+      "date": "2014–2015",
       "situation": "Walters Art Museum",
       "activity": "Teaching Artist",
-      "location": "Baltimore, MD"
+      "location": "Baltimore, MD",
+      "link": ""
     },
     {
       "section": "University Teaching",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2026",
       "situation": "San Francisco University",
       "activity": "Digital Media Design",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2025",
       "situation": "San Francisco University",
       "activity": "Design for the Web",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2024",
       "situation": "San Francisco University",
       "activity": "Visual Communications",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2024",
       "situation": "San Francisco University",
       "activity": "Design for the Web",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2023",
       "situation": "San Francisco University",
       "activity": "Digital Media Design",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2022",
       "situation": "University of California, Davis",
       "activity": "Coding for Designers",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2022",
       "situation": "University of California, Davis",
       "activity": "Graphics and the Computer",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Winter 2022",
       "situation": "University of California, Davis",
       "activity": "Interactive Media I",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Winter 2022",
       "situation": "University of California, Davis",
       "activity": "Coding for Designers",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2021",
       "situation": "University of California, Davis",
       "activity": "Coding for Designers",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Summer 2021",
       "situation": "University of California, Davis",
       "activity": "Coding for Designers",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Summer 2021",
       "situation": "University of California, Davis",
       "activity": "Graphics and the Computer",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2021",
       "situation": "University of California, Davis",
       "activity": "Graphics and the Computer",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Winter 2021",
       "situation": "University of California, Davis",
       "activity": "Graphics and the Computer",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2020",
       "situation": "University of California, Davis",
       "activity": "Graphics and the Computer",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2020",
       "situation": "University of California, Davis",
       "activity": "Interactive Media I",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Summer 2020",
       "situation": "University of California, Davis",
       "activity": "Coding for Designers",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Spring 2020",
       "situation": "University of California, Davis",
       "activity": "Interactive Media I",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Winter 2019",
       "situation": "University of California, Davis",
       "activity": "Design Ideologies",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Winter 2019",
       "situation": "University of California, Davis",
       "activity": "Form and Color",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2019",
       "situation": "University of California, Davis",
       "activity": "Interactive Media II",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2019",
       "situation": "University of California, Davis",
       "activity": "Interactive Media I",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "Fall 2018",
       "situation": "University of California, Davis",
       "activity": "Typography",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "Residencies",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "Since 2024",
       "situation": "World Engines Lab",
       "activity": "Research Fellow",
-      "location": "San Francisco"
+      "location": "San Francisco",
+      "link": "https://grayarea.org/create/research-labs/world-engines-lab/"
     },
     {
       "section": "",
-      "date": "2017?2018",
+      "date": "2017–2018",
       "situation": "Kala Art Institute",
       "activity": "Emergent Artist in Digital Art Residency",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "Group Exhibitions +  Installations",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "2026",
       "situation": "National Academy of Design",
       "activity": "Future Schools",
-      "location": "New York, NY"
+      "location": "New York, NY",
+      "link": "https://nationalacademy.org/calendar/Future-Schools"
     },
     {
       "section": "",
       "date": "2026",
       "situation": "Gray Area",
       "activity": "./local_memory",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": "https://grayarea.org/event/local-memory-soft-systems/"
     },
     {
       "section": "",
       "date": "2025",
       "situation": "Solo Show Online, Gothic Pastoral 06",
       "activity": "either solar / or lunar",
-      "location": "Online"
+      "location": "Online",
+      "link": "https://soloshow.online/gothicpastoral.html"
     },
     {
       "section": "",
       "date": "2025",
       "situation": "telos haus, Gossamer",
       "activity": "Gossamer",
-      "location": "Brooklyn, NY"
+      "location": "Brooklyn, NY",
+      "link": ""
     },
     {
       "section": "",
       "date": "2023",
       "situation": "Thatcher Gallery",
       "activity": "Nightingales ",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "2022",
       "situation": "Axis Gallery",
       "activity": "memory.unshift()",
-      "location": "Sacramento, CA"
+      "location": "Sacramento, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "2020",
       "situation": "Jan Shrem and Maria Manetti Shrem Museum of Art",
       "activity": "Growing Interventions",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "2019",
       "situation": "Jan Shrem and Maria Manetti Shrem Museum of Art",
       "activity": "Wonder Wander",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "2017",
       "situation": "Exploratorium",
       "activity": "Field of View - Mapping New Technologies",
-      "location": "San Francisco"
+      "location": "San Francisco",
+      "link": ""
     },
     {
       "section": "Publications",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "",
       "situation": "Almanac of Artificial Seasons [Working Title] ",
       "activity": "Src Material, Echo Chamber",
-      "location": ""
+      "location": "",
+      "link": "https://www.srcmaterial.org/"
     },
     {
       "section": "",
       "date": "2022",
       "situation": "Codex Endogenous: Designing Interactive Self Data Visualization Tool for  Trauma Impacted Individuals",
       "activity": "Short Paper, ISEA 2022",
-      "location": "Barcelona, Spain"
+      "location": "Barcelona, Spain",
+      "link": "https://drive.google.com/file/d/1W-WhD27lbFruAP1Zd5_8IaRrJgq7Myd6/view?usp=sharing"
     },
     {
       "section": "",
       "date": "2020",
       "situation": "Codex Endogenous: Visualizing the Self",
       "activity": "MFA Thesis",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": "https://drive.google.com/drive/u/2/folders/1OYYrOeKe5j9AMuQ-VQRRQ9LE1s0kjO_E"
     },
     {
       "section": "Writing",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "2025",
       "situation": "Falling, Failing, Feeling, Freeing",
       "activity": "School for Poetic Computation",
-      "location": ""
+      "location": "",
+      "link": "https://sfpc.study/blog/falling-failing-feeling-freeing"
     },
     {
       "section": "Talks",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "2024",
       "situation": "World Engines Lab Simulation Sessions",
       "activity": "Artist Talk",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": "https://grayarea.org/event/simulation-sessions-with-alexa-ann-bonomo/"
     },
     {
       "section": "",
       "date": "2024",
       "situation": "Living Room Light Exchange",
       "activity": "Artist Talk",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": "https://www.livingroomlightexchange.com/past-speakers"
     },
     {
       "section": "",
       "date": "2023",
       "situation": "Memory, Love, and the Handmade",
       "activity": "Artist Talk",
-      "location": "San Francisco, CA"
+      "location": "San Francisco, CA",
+      "link": "https://ashherr.github.io/tiat/"
     },
     {
       "section": "",
       "date": "2023",
       "situation": "ISEA 2023: Artist Talks, Memory, Love and the Handmade in Interactive Data Installations",
       "activity": "Artist Talk",
-      "location": "Paris, France"
+      "location": "Paris, France",
+      "link": "https://app.swapcard.com/widget/event/isea2023/planning/UGxhbm5pbmdfMTI1NzQzNw=="
     },
     {
       "section": "",
       "date": "2022",
       "situation": "ISEA 2022: Short Papers, Codex Endogenous: Designing Interactive Self Data Visualization Tool for\nTrauma Impacted Individuals",
       "activity": "Short Paper Talk",
-      "location": "Barcelona, Spain"
+      "location": "Barcelona, Spain",
+      "link": "https://isea2022.isea-international.org/event/short-papers-codex-endogenous-designing-interactive-self-data-visualization-tool-for-trauma-impacted-individuals/"
     },
     {
       "section": "",
       "date": "2022",
       "situation": "The Quantified Self and Designing for Generative Journaling",
       "activity": "Guest Lecture",
-      "location": "Davis, CA"
+      "location": "Davis, CA",
+      "link": ""
     },
     {
       "section": "",
       "date": "2020",
       "situation": "Artist Talk: Using Metaphor and Naturalistic Geometry to Visualize Quantified Self Data",
       "activity": "Artist Talk",
-      "location": "Montreal, QC Canada"
+      "location": "Montreal, QC Canada",
+      "link": "https://www.youtube.com/watch?v=Iw1ENjZHcyw&t=1s"
     },
     {
       "section": "Press",
       "date": "",
       "situation": "",
       "activity": "",
-      "location": ""
+      "location": "",
+      "link": ""
     },
     {
       "section": "",
       "date": "2026",
-      "situation": "Technoutopia.exe: Fragments from the Archive 1984?2014",
-      "activity": "San Jos? Museum of Art",
-      "location": ""
+      "situation": "Technoutopia.exe: Fragments from the Archive 1984–2014",
+      "activity": "San José Museum of Art",
+      "location": "",
+      "link": "https://sjmusart.org/art-x-tech-sjma"
     },
     {
       "section": "",
       "date": "2026",
       "situation": "Click on My Mouth: Language and Technology",
-      "activity": "San Jos? State University",
-      "location": ""
+      "activity": "San José State University",
+      "location": "",
+      "link": "https://www.sjsu.edu/thompsongallery/on-view/archive/click-on-my-mouth-2026.php"
     },
     {
       "section": "",
       "date": "2023",
       "situation": "If I'd known then: the Art + Architecture Faculty Triennial",
       "activity": "University of San Francisco",
-      "location": ""
+      "location": "",
+      "link": "https://sfarts.org/event/if-id-known-then-the-art--architecture-faculty-triennial-4e935ILwx9RMyzEVXroSMJ"
     },
     {
       "section": "",
       "date": "2022",
       "situation": "memory.unshift()",
       "activity": "Axis Gallery",
-      "location": ""
+      "location": "",
+      "link": "https://axisgallery.org/home/exhibitions/memory-unshift-alexa_anne_bonomo-glenda_drew-jesse_drew-william_mead/"
     },
     {
       "section": "",
       "date": "2017",
       "situation": "Field of View: Mapping Emerging Media Technologies",
       "activity": "Exploratorium",
-      "location": ""
+      "location": "",
+      "link": "http://web.archive.org/web/20230414023013/https://www.exploratorium.edu/visit/calendar/field-of-view"
     }
   ]
 }
