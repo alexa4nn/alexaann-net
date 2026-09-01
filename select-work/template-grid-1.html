@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template — Alexa Ann</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        TEMPLATE — a modular grid you can rearrange freely.
+
+        Structure:
+          .grid-modular              the row of columns
+            .grid-col                one column — stack any modules inside it, any order, any count
+              .module-media          an image/video tile with a centered overlay title
+              .module-text           a two-column block of body text + a link list
+
+        To customize:
+          - Add more <div class="grid-col">...</div> siblings for a 3+ column layout.
+          - Give a column class="grid-col grid-col--wide" or "grid-col--narrow" to change its
+            proportional width relative to the others.
+          - Give a .module-media class="module-media module-media--sm" or "--lg" to change its height
+            (default is 420px; sm is 280px, lg is 560px).
+          - Add "module-media--light" instead of the default "--dark" for a pale tile background
+            (better for a light photo) — the overlay title switches to a blended white automatically.
+          - Swap the placeholder <img> for a <video autoplay muted loop playsinline> to use motion instead.
+          - Repeat .grid-modular blocks down the page for additional rows/sections, each with its own
+            independent column layout.
+    -->
+    <video id="bg-video" autoplay muted playsinline>
+        <source src="../media/trees_light.mov" type="video/mp4">
+    </video>
+    <div class="glass-overlay"></div>
+    <main>
+        <a href="index.html" class="back-link">❧ back to archive</a>
+        <h1>Lorem Ipsum Grid Title</h1>
+
+        <div class="grid-modular">
+            <div class="grid-col">
+                <div class="module-media module-media--dark module-media--lg">
+                    <img src="../media/placeholder_image_01.png" alt="Replace with project image or video">
+                </div>
+                <div class="module-text">
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In each of my friends there is something that only some other friend can fully bring out.</p>
+                    </div>
+                    <div class="col">
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, exhibited at lorem gallery, curated by placeholder name, in placeholder year.</p>
+                        <div class="module-links">
+                            <a href="#" target="_blank" rel="noopener">visit project website ↗</a>
+                            <a href="#" target="_blank" rel="noopener">visit on lorem.gallery ↗</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-col">
+                <div class="module-media module-media--light module-media--lg">
+                    <img src="../media/placeholder_image_01.png" alt="Replace with project image or video">
+                </div>
+                <div class="module-media module-media--dark module-media--lg">
+                    <img src="../media/placeholder_image_01.png" alt="Replace with project image or video">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        const video = document.getElementById('bg-video');
+        video.playbackRate = 0.35;
+        let direction = 1;
+        let scrollTimeout;
+        let mouseMoveTimeout;
+        let isVideoPausedByScroll = false;
+        let isVideoPausedByMouse = false;
+
+        video.addEventListener('loadedmetadata', () => {
+            video.currentTime = 0;
+        });
+
+        video.addEventListener('timeupdate', () => {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                if (direction === 1 && video.currentTime >= 8) {
+                    direction = -1;
+                    video.playbackRate = -0.35;
+                } else if (direction === -1 && video.currentTime <= 0) {
+                    direction = 1;
+                    video.playbackRate = 0.35;
+                }
+            }
+        });
+
+        function pauseVideo() {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                video.pause();
+            }
+        }
+
+        function resumeVideo() {
+            if (!isVideoPausedByScroll && !isVideoPausedByMouse) {
+                video.play();
+            }
+        }
+
+        // Pause video on scroll, resume after 8 seconds of no scrolling
+        window.addEventListener('scroll', () => {
+            if (!isVideoPausedByScroll) {
+                pauseVideo();
+                isVideoPausedByScroll = true;
+            }
+
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                isVideoPausedByScroll = false;
+                resumeVideo();
+            }, 8000);
+        });
+
+        // Pause video on mouse move (desktop only), resume after 8 seconds of no movement
+        if (window.matchMedia('(min-width: 721px)').matches) {
+            window.addEventListener('mousemove', () => {
+                if (!isVideoPausedByMouse) {
+                    pauseVideo();
+                    isVideoPausedByMouse = true;
+                }
+
+                clearTimeout(mouseMoveTimeout);
+                mouseMoveTimeout = setTimeout(() => {
+                    isVideoPausedByMouse = false;
+                    resumeVideo();
+                }, 8000);
+            });
+        }
+    </script>
+</body>
+</html>
